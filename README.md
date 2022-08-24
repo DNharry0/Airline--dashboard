@@ -2,7 +2,7 @@
 
 1. Create React App으로 작성되었습니다.
 2. Styled Component 사용하였습니다.
-2. bootstrap 을 사용하였습니다.
+2. ootstrap 을 사용하였습니다.
 3. 인천국제공항공사 API를 활용하였습니다. 운항정보에 따라 전광판 정보가 바뀔 수 있습니다.
 5. npm start를 통해 확인 할 수 있으며 그 예시는 아래와 같습니다.
 
