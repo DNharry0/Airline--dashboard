@@ -83,6 +83,7 @@ const ShortSubtitle = styled.div`
   margin-bottom: 0.3rem;
   background-color: ${darkThemeColor};
   color: white;
+  border-radius: 0.2rem;
   @media screen and (min-width: 320px) and (max-width: 1080px) {
     width: 18vw;
   }
@@ -98,6 +99,8 @@ const SubTitle = styled.div`
   margin-bottom: 0.3rem;
   background-color: ${darkThemeColor};
   color: white;
+  border-radius: 0.2rem;
+
   @media screen and (min-width: 320px) and (max-width: 1080px) {
     width: 18vw;
   }
@@ -115,6 +118,7 @@ const SubData = styled.h5`
   color: white;
   margin-right: 0.1rem;
   background-color: #1971c2;
+  border-radius: 0.2rem;
   @media screen and (min-width: 320px) and (max-width: 1080px) {
   }
 `;
