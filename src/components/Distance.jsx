@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { MdOutlineFlight } from "react-icons/md";
-import { themeColor, hoverEffect, darkThemeColor } from "../utils";
+import { hoverEffect, darkThemeColor } from "../utils";
 
 function Distance() {
   return (

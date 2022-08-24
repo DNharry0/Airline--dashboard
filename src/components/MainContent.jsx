@@ -1,11 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import Navbar from "./Navbar";
-import Earnings from "./Distance";
 import Info from "./Info";
 import Community from "./Community";
 import Weather from "./Weather";
-import Member from "./Member";
+import BillBoard from "./BillBoard";
 import Destination from "./Destination";
 import Distance from "./Distance";
 
@@ -20,8 +19,8 @@ function MainContent({ airlineData }) {
             <Info />
           </ColumnOne1>
           <ColumnTwo1>
-            <TitleText>비행 승무원</TitleText>
-            <Member />
+            <TitleText>빌 보드</TitleText>
+            <BillBoard airlineData={airlineData}/>
           </ColumnTwo1>
         </SectionOne>
         <SectionTwo>

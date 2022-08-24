@@ -11,7 +11,7 @@ function App() {
   const [airlineData, setAirlineData] = useState(null);
 
   const getAirlineData = async () => {
-    const url = `http://apis.data.go.kr/B551177/StatusOfPassengerFlightsOdp/getPassengerArrivalsOdp?serviceKey=${API_KEY}&from_time=0000&to_time=2400&airport=TAS&flight_id=KE5942&lang=K&type=xml`;
+    const url = `https://apis.data.go.kr/B551177/StatusOfPassengerFlightsOdp/getPassengerArrivalsOdp?serviceKey=${API_KEY}&from_time=0500&to_time=0700&lang=K&type=xml`;
     const response = await fetch(url);
     const data = await response.text();
     const parser = new XMLParser();

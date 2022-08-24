@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import styled from "styled-components";
 import Badge from "./Badge";
 import AvatarImage from "../assets/avatarImage5.jpg";
@@ -17,7 +17,7 @@ function Destination({ airlineData }) {
             </Avatar>
             <TextContainer>
               <AirportName>ICN</AirportName>
-              <Transfer>Layover ROMA 3H</Transfer>
+              <Transfer>layover 5H ROMA</Transfer>
             </TextContainer>
           </Info>
           <Container>
@@ -32,8 +32,8 @@ function Destination({ airlineData }) {
               <img src={AvatarImage2} alt="" />
             </Avatar>
             <TextContainer>
-              <AirportName>{airlineData?.response.body.items.item.airportCode}</AirportName>
-              <Transfer>Layover ROMA 3H</Transfer>
+              <AirportName>LHR</AirportName>
+              <Transfer>layover 5H ROMA</Transfer>
             </TextContainer>
           </Info>
           <Container>
@@ -102,7 +102,8 @@ const Avatar = styled.div`
 const TextContainer = styled.div`
   margin-left: 1rem;
 `;
-const AirportName = styled.h4``;
+const AirportName = styled.h4`
+`;
 const Transfer = styled.h5`
   font-weight: 400;
 `;

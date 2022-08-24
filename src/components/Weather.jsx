@@ -42,7 +42,7 @@ const Weather = styled.div`
   height: 130%;
   padding: 1rem;
   background-color: white;
-  width: 27.5vw;
+  width: 29vw;
   box-shadow: ${cardShadow};
   transition: 0.4s ease-in-out;
   &:hover {

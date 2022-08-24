@@ -10,7 +10,6 @@ function Badge({
 }) {
   return (
     <Div clean={clean} glow={glow} departures={departures} arrivals={arrivals}>
-      {/* paid=departures late=arrivals   */}
       {content}
     </Div>
   );
